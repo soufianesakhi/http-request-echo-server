@@ -1,0 +1,26 @@
+{
+  "name": "http-request-echo-server",
+  "version": "0.1.0",
+  "description": "Simple server that echoes the request as a response",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soufianesakhi/http-request-echo-server.git"
+  },
+  "author": "Soufiane Sakhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soufianesakhi/http-request-echo-server/issues"
+  },
+  "homepage": "https://github.com/soufianesakhi/http-request-echo-server",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
