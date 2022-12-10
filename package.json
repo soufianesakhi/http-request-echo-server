@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/soufianesakhi/http-request-echo-server",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "node-fetch": "^3.3.0"
   },

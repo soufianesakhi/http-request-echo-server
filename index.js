@@ -1,3 +1,4 @@
+import cors from "cors";
 import express from "express";
 import fetch from "node-fetch";
 
@@ -10,6 +11,7 @@ const port = process.env.PORT ?? 3000;
 const app = express();
 app.use(noParsing);
 app.use(noCache);
+app.use(cors());
 app.use(
   express.raw({
     inflate: true,
